@@ -1,0 +1,29 @@
+{
+  "folders": [
+    { "name": "🌿 Arogya Mantra Root", "path": "." },
+    { "name": "⚛️ Client (React)", "path": "./client" },
+    { "name": "🟢 Server (Node.js)", "path": "./server" }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+    "tailwindCSS.experimental.classRegex": [
+      ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ],
+    "liveServer.settings.multiRootWorkspaceName": "⚛️ Client (React)"
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss",
+      "dsznajder.es7-react-js-snippets",
+      "christian-kohler.path-intellisense",
+      "dbaeumer.vscode-eslint",
+      "ritwickdey.LiveServer",
+      "eamodio.gitlens",
+      "mongodb.mongodb-vscode"
+    ]
+  }
+}

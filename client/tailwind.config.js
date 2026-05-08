@@ -1,0 +1,71 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: {
+    extend: {
+      colors: {
+        ink: '#0D0807',
+        ink2: '#1A100C',
+        ink3: '#231410',
+        crimson: { DEFAULT: '#8B1A1A', light: '#A52020', pale: '#2A0808', glow: 'rgba(139,26,26,0.35)' },
+        gold: { DEFAULT: '#C9A84C', light: '#E5C97A', pale: '#1E1508', glow: 'rgba(201,168,76,0.25)' },
+        ivory: { DEFAULT: '#F5ECD7', 2: '#EDE0C8', dim: '#C8BA9E' },
+        sage: { DEFAULT: '#4A6741', light: '#6B9560', pale: '#1A2A17' },
+        warmgrey: '#9A8F85',
+        amber: '#D4833A',
+      },
+      fontFamily: {
+        playfair: ['"Playfair Display"', 'serif'],
+        cormorant: ['"Cormorant Garamond"', 'serif'],
+        jost: ['Jost', 'sans-serif'],
+      },
+      animation: {
+        'spin-slow': 'spin 80s linear infinite',
+        'spin-reverse': 'spinReverse 60s linear infinite',
+        'marquee': 'marquee 35s linear infinite',
+        'pulse-dot': 'pulseDot 2s ease-in-out infinite',
+        'float': 'float 7s ease-in-out infinite',
+        'float-slow': 'float 11s ease-in-out infinite',
+        'glow-pulse': 'glowPulse 3s ease-in-out infinite',
+        'shimmer': 'shimmerMove 2.5s linear infinite',
+        'draw-line': 'drawLine 1.5s ease forwards',
+        'fade-up': 'fadeUp 0.8s ease forwards',
+        'scale-in': 'scaleIn 0.6s ease forwards',
+        'bounce-once': 'bounceOnce 0.5s ease',
+      },
+      keyframes: {
+        marquee: { '0%': { transform: 'translateX(0)' }, '100%': { transform: 'translateX(-50%)' } },
+        pulseDot: { '0%,100%': { opacity: 1, transform: 'scale(1)' }, '50%': { opacity: 0.4, transform: 'scale(0.7)' } },
+        float: { '0%,100%': { transform: 'translateY(0px)' }, '50%': { transform: 'translateY(-14px)' } },
+        spinReverse: { '0%': { transform: 'rotate(0deg)' }, '100%': { transform: 'rotate(-360deg)' } },
+        glowPulse: { '0%,100%': { opacity: 0.5 }, '50%': { opacity: 1 } },
+        shimmerMove: { '0%': { backgroundPosition: '200% center' }, '100%': { backgroundPosition: '-200% center' } },
+        drawLine: { '0%': { width: '0%' }, '100%': { width: '100%' } },
+        fadeUp: { '0%': { opacity: 0, transform: 'translateY(30px)' }, '100%': { opacity: 1, transform: 'translateY(0)' } },
+        scaleIn: { '0%': { opacity: 0, transform: 'scale(0.85)' }, '100%': { opacity: 1, transform: 'scale(1)' } },
+        bounceOnce: { '0%': { transform: 'scale(1)' }, '50%': { transform: 'scale(1.3)' }, '100%': { transform: 'scale(1)' } },
+      },
+      backgroundImage: {
+        'gold-gradient': 'linear-gradient(135deg, #C9A84C 0%, #E5C97A 50%, #C9A84C 100%)',
+        'crimson-gradient': 'linear-gradient(135deg, #8B1A1A 0%, #A52020 100%)',
+        'ink-gradient': 'linear-gradient(to bottom, #0D0807 0%, #1A100C 100%)',
+      },
+      boxShadow: {
+        'gold': '0 0 30px rgba(201,168,76,0.2)',
+        'crimson': '0 0 30px rgba(139,26,26,0.3)',
+        'card': '0 20px 60px rgba(0,0,0,0.5)',
+        'card-hover': '0 30px 80px rgba(0,0,0,0.65)',
+      },
+      transitionDuration: {
+        '400': '400ms',
+      },
+      scale: {
+        '102': '1.02',
+        '103': '1.03',
+        '105': '1.05',
+        '108': '1.08',
+      },
+    },
+  },
+  plugins: [],
+}

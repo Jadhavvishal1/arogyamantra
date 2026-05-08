@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arogya Mantra — Ancient Wisdom, Modern Wellness</title>
+<meta name="description" content="Arogya Mantra Multispeciality Clinic — Dr. Vrushali Maisekar, Best Ayurvedic Doctor in Hadapsar, Pune. Panchabhoutik Chikitsa, Panchakarma, Yoga Therapy, Hair Regain Clinic & authentic Ayurvedic products.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cr:#8B1818;--cr-dk:#5C0F0F;--cr-lt:#C44040;
+  --gd:#B8860B;--gd-lt:#D4A843;--gd-pale:#F5E6C0;
+  --iv:#F9F4EE;--iv-dk:#EDE4D5;
+  --fs:#3A6B4A;--fs-dk:#254836;
+  --ea:#1C0A02;
+  --wg:#8B7B6B;--wh:#FFFFFF;
+  --td:#1C0A02;--tm:#4A3728;--mu:#8B7B6B;
+  --br:rgba(139,24,24,.15);
+  --fd:'Cormorant Garamond',serif;
+  --fb:'DM Sans',sans-serif;
+  --fa:'Crimson Text',serif;
+  --nh:76px;--sp:clamp(60px,8vw,110px);--cx:1200px;
+  --r:4px;--rl:12px;
+  --ease:cubic-bezier(.4,0,.2,1);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--fb);background:var(--iv);color:var(--td);line-height:1.7;overflow-x:hidden;opacity:0;transition:opacity .5s ease}
+body.loaded{opacity:1}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+.cx{max-width:var(--cx);margin:0 auto;padding:0 clamp(20px,4vw,56px)}
+
+/* ── NAVBAR ── */
+#nav{position:fixed;top:0;left:0;right:0;z-index:1000;height:var(--nh);display:flex;align-items:center;transition:all .4s var(--ease)}
+#nav.sc{background:rgba(249,244,238,.96);backdrop-filter:blur(20px);border-bottom:1px solid var(--br);box-shadow:0 2px 30px rgba(28,10,2,.07)}
+.ni{display:flex;align-items:center;justify-content:space-between;width:100%}
+.nl{display:flex;align-items:center;gap:14px}
+.nm{width:56px;height:40px}
+.nt{display:flex;flex-direction:column}
+.nt .bn{font-family:var(--fd);font-size:1.2rem;font-weight:700;color:var(--cr);line-height:1.1;letter-spacing:.02em}
+.nt .tg{font-family:var(--fa);font-size:.65rem;color:var(--wg);letter-spacing:.15em;text-transform:uppercase}
+.nv{display:flex;align-items:center;gap:1.75rem;list-style:none}
+.nv a{font-size:.82rem;font-weight:500;color:var(--tm);letter-spacing:.04em;transition:color .2s;position:relative}
+.nv a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1.5px;background:var(--cr);transition:width .3s var(--ease)}
+.nv a:hover{color:var(--cr)}
+.nv a:hover::after{width:100%}
+.ncta{background:var(--cr)!important;color:var(--wh)!important;padding:9px 20px;border-radius:2px;font-size:.76rem!important;letter-spacing:.08em!important;text-transform:uppercase;transition:background .2s!important}
+.ncta:hover{background:var(--cr-dk)!important}
+.ncta::after{display:none!important}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;background:none;border:none}
+.hbg span{width:24px;height:1.5px;background:var(--td);transition:all .3s;display:block}
+.mm{display:none;position:fixed;top:var(--nh);left:0;right:0;background:var(--iv);border-bottom:1px solid var(--br);padding:20px 24px;z-index:999;flex-direction:column;gap:.75rem}
+.mm.op{display:flex}
+.mm a{font-size:.95rem;font-weight:500;padding:10px 0;color:var(--td);border-bottom:1px solid var(--br)}
+
+/* ── HERO ── */
+#hero{min-height:100vh;background:var(--ea);position:relative;display:flex;align-items:center;overflow:hidden}
+.hbp{position:absolute;inset:0;background:radial-gradient(ellipse at 15% 60%,rgba(139,24,24,.35) 0%,transparent 50%),radial-gradient(ellipse at 85% 20%,rgba(184,134,11,.18) 0%,transparent 40%),radial-gradient(ellipse at 60% 85%,rgba(58,107,74,.2) 0%,transparent 40%)}
+.hmnd{position:absolute;right:-8%;top:50%;transform:translateY(-50%);width:min(580px,52vw);opacity:.055;animation:spin 50s linear infinite}
+@keyframes spin{to{transform:translateY(-50%) rotate(360deg)}}
+.hcn{position:relative;z-index:2;padding:calc(var(--nh)+50px) clamp(20px,4vw,56px) 100px;max-width:740px}
+.hew{display:inline-flex;align-items:center;gap:12px;margin-bottom:2rem;opacity:0;animation:fu .8s var(--ease) .3s forwards}
+.hew .el{width:36px;height:1px;background:var(--gd)}
+.hew span{font-size:.7rem;font-weight:500;color:var(--gd-lt);letter-spacing:.25em;text-transform:uppercase}
+.htt{font-family:var(--fd);font-size:clamp(3rem,5.8vw,5.5rem);font-weight:300;color:var(--wh);line-height:1.05;margin-bottom:1.5rem;opacity:0;animation:fu .8s var(--ease) .5s forwards}
+.htt em{font-style:italic;color:var(--gd-lt)}
+.hsb{font-family:var(--fa);font-size:clamp(.95rem,1.4vw,1.2rem);color:rgba(255,255,255,.68);max-width:500px;margin-bottom:2.75rem;opacity:0;animation:fu .8s var(--ease) .7s forwards;line-height:1.85}
+.hac{display:flex;gap:1rem;flex-wrap:wrap;opacity:0;animation:fu .8s var(--ease) .9s forwards}
+.hst{position:absolute;bottom:44px;right:60px;display:flex;gap:40px;opacity:0;animation:fu .8s var(--ease) 1.1s forwards}
+.hs-n{font-family:var(--fd);font-size:2.4rem;font-weight:600;color:var(--gd-lt);line-height:1}
+.hs-l{font-size:.65rem;color:rgba(255,255,255,.45);letter-spacing:.12em;text-transform:uppercase;margin-top:4px}
+@keyframes fu{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+
+/* ── BUTTONS ── */
+.bp{background:var(--cr);color:var(--wh);padding:15px 30px;font-family:var(--fb);font-size:.85rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;border:none;cursor:pointer;transition:all .2s;display:inline-block;border-radius:2px}
+.bp:hover{background:var(--cr-dk);transform:translateY(-1px)}
+.bo{background:transparent;color:var(--wh);padding:15px 30px;font-family:var(--fb);font-size:.85rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;border:1px solid rgba(255,255,255,.35);cursor:pointer;transition:all .2s;display:inline-block;border-radius:2px}
+.bo:hover{border-color:var(--gd);color:var(--gd)}
+
+/* ── MARQUEE ── */
+.mq{background:var(--cr);padding:13px 0;overflow:hidden;position:relative}
+.mt{display:flex;animation:mq 28s linear infinite;white-space:nowrap}
+.mi{display:inline-flex;align-items:center;gap:12px;padding:0 36px;font-size:.72rem;font-weight:500;color:rgba(255,255,255,.9);letter-spacing:.14em;text-transform:uppercase;flex-shrink:0}
+.md{width:4px;height:4px;background:var(--gd-lt);border-radius:50%;flex-shrink:0}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ── SECTION BASE ── */
+.sec{padding:var(--sp) 0}
+.sey{display:flex;align-items:center;gap:16px;margin-bottom:1.5rem}
+.sey .sl{width:38px;height:1px;background:var(--cr)}
+.sey span{font-size:.7rem;font-weight:600;color:var(--cr);letter-spacing:.2em;text-transform:uppercase}
+.st{font-family:var(--fd);font-size:clamp(2.1rem,3.8vw,3.4rem);font-weight:300;color:var(--td);line-height:1.15}
+.st em{font-style:italic;color:var(--cr)}
+
+/* ── REVEAL ── */
+.rv{opacity:0;transform:translateY(36px);transition:all .7s var(--ease)}
+.rv.vi{opacity:1;transform:translateY(0)}
+.rv.d1{transition-delay:.1s}.rv.d2{transition-delay:.2s}.rv.d3{transition-delay:.3s}
+
+/* ── ABOUT ── */
+#about{background:var(--wh)}
+.ag{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
+.aiw{position:relative}
+.aib{position:absolute;bottom:-20px;right:-20px;width:84%;aspect-ratio:3/4;background:var(--iv-dk);border-radius:var(--r);z-index:1}
+.aim{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:var(--r);position:relative;z-index:2;background:linear-gradient(135deg,#f5ede0 0%,#e8d5b8 100%);display:flex;align-items:center;justify-content:center;font-size:7rem}
+.abg{position:absolute;bottom:28px;left:-28px;z-index:3;background:var(--cr);color:var(--wh);padding:20px 22px;border-radius:var(--r);text-align:center;min-width:110px}
+.abg .yn{font-family:var(--fd);font-size:2.8rem;font-weight:700;line-height:1;display:block}
+.abg .yl{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;opacity:.85;margin-top:2px}
+.adc{font-family:var(--fa);font-size:1.1rem;color:var(--tm);line-height:1.9;margin:1.5rem 0 1.75rem}
+.atg{display:flex;flex-wrap:wrap;gap:10px;margin:1.5rem 0}
+.at{background:var(--iv);border:1px solid var(--br);color:var(--tm);font-size:.78rem;font-weight:500;padding:7px 14px;border-radius:2px;letter-spacing:.04em}
+.acr{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:1.75rem}
+.ci{padding:14px 16px;border-left:3px solid var(--cr)}
+.ci .ct{font-size:.68rem;font-weight:600;color:var(--cr);letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px}
+.ci .cv{font-family:var(--fa);font-size:.9rem;color:var(--td)}
+
+/* ── SERVICES ── */
+#services{background:var(--iv)}
+.si{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-bottom:52px;align-items:end}
+.sd{font-family:var(--fa);font-size:1.05rem;color:var(--tm);line-height:1.85}
+.sg{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.sc-{background:var(--wh);padding:36px 28px;position:relative;overflow:hidden;transition:all .35s var(--ease);cursor:pointer}
+.sc-::before{content:'';position:absolute;bottom:0;left:0;width:0;height:3px;background:var(--cr);transition:width .35s var(--ease)}
+.sc-:hover{transform:translateY(-5px);box-shadow:0 20px 60px rgba(28,10,2,.1)}
+.sc-:hover::before{width:100%}
+.sn{font-family:var(--fd);font-size:3.2rem;font-weight:700;color:var(--iv-dk);line-height:1;margin-bottom:14px;transition:color .3s}
+.sc-:hover .sn{color:var(--cr);opacity:.2}
+.si-{font-size:1.9rem;margin-bottom:14px}
+.snm{font-family:var(--fd);font-size:1.35rem;font-weight:600;color:var(--td);margin-bottom:10px}
+.sds{font-size:.85rem;color:var(--mu);line-height:1.7}
+.slk{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-size:.75rem;font-weight:600;color:var(--cr);letter-spacing:.08em;text-transform:uppercase;opacity:0;transform:translateX(-8px);transition:all .3s}
+.sc-:hover .slk{opacity:1;transform:translateX(0)}
+
+/* ── SHOP ── */
+#shop{background:var(--ea)}
+#shop .sey span{color:var(--gd-lt)}
+#shop .sey .sl{background:var(--gd-lt)}
+.sf{display:flex;gap:8px;flex-wrap:wrap;margin:1.75rem 0}
+.fb{background:transparent;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.6);padding:7px 18px;font-size:.76rem;font-weight:500;letter-spacing:.06em;cursor:pointer;transition:all .2s;border-radius:2px;font-family:var(--fb)}
+.fb:hover,.fb.ac{background:var(--gd);border-color:var(--gd);color:var(--ea)}
+.pg{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:1.75rem}
+.pc{background:var(--iv);border-radius:var(--rl);overflow:hidden;transition:all .3s var(--ease)}
+.pc:hover{transform:translateY(-7px);box-shadow:0 28px 56px rgba(0,0,0,.32)}
+.piw{position:relative;aspect-ratio:1;background:var(--iv-dk);overflow:hidden;display:flex;align-items:center;justify-content:center}
+.pe{font-size:4.5rem;transition:transform .4s}
+.pc:hover .pe{transform:scale(1.18)}
+.pb{position:absolute;top:11px;left:11px;background:var(--fs);color:var(--wh);font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:4px 9px;border-radius:2px}
+.pw{position:absolute;top:11px;right:11px;width:30px;height:30px;background:var(--wh);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:.9rem;transition:background .2s;border:none}
+.pw:hover{background:var(--cr)}
+.pif{padding:18px}
+.pct{font-size:.65rem;font-weight:600;color:var(--cr);letter-spacing:.15em;text-transform:uppercase;margin-bottom:5px}
+.pnm{font-family:var(--fd);font-size:1.05rem;font-weight:600;color:var(--td);margin-bottom:3px;line-height:1.25}
+.psz{font-size:.72rem;color:var(--mu);margin-bottom:12px}
+.pds{font-size:.78rem;color:var(--mu);line-height:1.6;margin-bottom:0}
+.pft{display:flex;align-items:center;justify-content:space-between;margin-top:14px}
+.pp{font-family:var(--fd);font-size:1.3rem;font-weight:600;color:var(--cr)}
+.atc{background:var(--cr);color:var(--wh);border:none;padding:9px 14px;font-size:.72rem;font-weight:600;letter-spacing:.06em;cursor:pointer;border-radius:2px;transition:all .2s;font-family:var(--fb)}
+.atc:hover{background:var(--cr-dk)}
+.atc.ad{background:var(--fs)}
+.cb{position:fixed;bottom:28px;right:28px;background:var(--cr);color:var(--wh);width:54px;height:54px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;box-shadow:0 4px 20px rgba(139,24,24,.4);cursor:pointer;opacity:0;transform:scale(0);transition:all .3s;font-family:var(--fb);font-size:.7rem;font-weight:700;gap:1px;line-height:1}
+.cb.vs{opacity:1;transform:scale(1)}
+.cb:hover{transform:scale(1.12)}
+
+/* ── REVIEWS ── */
+#reviews{background:var(--wh)}
+.rh{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end;margin-bottom:48px}
+.or{display:flex;align-items:center;gap:18px;padding:22px 28px;background:var(--iv);border-radius:var(--rl);border:1px solid var(--br)}
+.rb{font-family:var(--fd);font-size:3.8rem;font-weight:700;color:var(--td);line-height:1}
+.ri .rs{color:var(--gd);font-size:1rem;letter-spacing:2px}
+.ri .rc{font-size:.76rem;color:var(--mu);margin-top:4px}
+.rc-{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rvw{background:var(--iv);padding:28px;border-radius:var(--rl);border:1px solid var(--br);transition:all .3s}
+.rvw:hover{border-color:var(--cr);box-shadow:0 10px 40px rgba(139,24,24,.1)}
+.rvs{color:var(--gd);font-size:.95rem;letter-spacing:2px;margin-bottom:14px}
+.rvt{font-family:var(--fa);font-size:.98rem;color:var(--tm);line-height:1.8;margin-bottom:18px;font-style:italic}
+.rva{display:flex;align-items:center;gap:12px}
+.rav{width:38px;height:38px;border-radius:50%;background:var(--cr);color:var(--wh);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.82rem;flex-shrink:0}
+.rn{font-weight:600;font-size:.85rem;color:var(--td)}
+.rm{font-size:.72rem;color:var(--mu)}
+.rsc{margin-left:auto;font-size:.65rem;color:var(--mu);background:var(--wh);padding:3px 8px;border-radius:4px;border:1px solid var(--br)}
+
+/* ── INSTAGRAM ── */
+#insta{background:var(--iv);padding:var(--sp) 0}
+.ih{text-align:center;margin-bottom:48px}
+.ig{display:grid;grid-template-columns:repeat(4,1fr);gap:3px}
+.ii{aspect-ratio:1;background:var(--ea);position:relative;overflow:hidden;cursor:pointer}
+.ii::before{content:'';position:absolute;inset:0;background:rgba(139,24,24,.72);opacity:0;transition:opacity .3s;z-index:2}
+.ii:hover::before{opacity:1}
+.ii .ic{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--wh);font-size:1.8rem;z-index:3;opacity:0;transition:opacity .3s}
+.ii:hover .ic{opacity:1}
+.ibg{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:3.2rem;background:var(--iv-dk)}
+.ifb{display:flex;justify-content:center;margin-top:1.75rem}
+.bif{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);color:var(--wh);padding:13px 26px;border-radius:var(--r);font-weight:600;font-size:.85rem;letter-spacing:.04em;transition:opacity .2s}
+.bif:hover{opacity:.9}
+
+/* ── FAQ ── */
+#faq{background:var(--wh)}
+.fg{display:grid;grid-template-columns:1fr 1.1fr;gap:72px;align-items:start;margin-top:48px}
+.fsd{position:sticky;top:100px}
+.fdc{font-family:var(--fa);font-size:1.05rem;color:var(--tm);line-height:1.9;margin:1.5rem 0 1.75rem}
+.fcc{background:var(--cr);color:var(--wh);padding:28px;border-radius:var(--rl)}
+.fcc h4{font-family:var(--fd);font-size:1.4rem;font-weight:600;margin-bottom:7px}
+.fcc p{font-size:.85rem;opacity:.85;margin-bottom:18px}
+.fcc a{background:var(--wh);color:var(--cr);padding:11px 22px;border-radius:2px;font-weight:600;font-size:.85rem;display:inline-block;transition:transform .2s}
+.fcc a:hover{transform:translateY(-2px)}
+.ac-{display:flex;flex-direction:column;gap:10px}
+.ai{border:1px solid var(--br);border-radius:var(--r);overflow:hidden;transition:border-color .2s}
+.ai.op{border-color:var(--cr)}
+.at-{width:100%;background:none;border:none;padding:18px 22px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;text-align:left;transition:background .2s}
+.at-:hover{background:var(--iv)}
+.aq{font-family:var(--fd);font-size:1rem;font-weight:600;color:var(--td);line-height:1.4;text-align:left}
+.aico{font-size:1.2rem;color:var(--cr);transition:transform .3s;flex-shrink:0;margin-left:14px}
+.ai.op .aico{transform:rotate(45deg)}
+.ab{max-height:0;overflow:hidden;transition:max-height .35s var(--ease)}
+.ai.op .ab{max-height:320px}
+.aa{padding:0 22px 18px;font-family:var(--fa);font-size:.98rem;color:var(--tm);line-height:1.85}
+
+/* ── BOOKING ── */
+#book{background:var(--fs-dk);position:relative;overflow:hidden}
+.bbg{position:absolute;inset:0;opacity:.06;background:radial-gradient(ellipse at 70% 50%,var(--gd) 0%,transparent 60%)}
+.bg-{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;position:relative;z-index:2}
+#book .sey span{color:var(--gd-lt)}
+#book .sey .sl{background:var(--gd-lt)}
+#book .st{color:var(--wh)}
+.bdc{font-family:var(--fa);font-size:1.05rem;color:rgba(255,255,255,.72);line-height:1.9;margin:1.5rem 0}
+.bpk{display:flex;flex-direction:column;gap:13px;margin-top:1.75rem}
+.pk{display:flex;align-items:center;gap:13px;color:rgba(255,255,255,.78);font-size:.875rem}
+.pi{width:30px;height:30px;background:rgba(212,168,67,.18);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.85rem;flex-shrink:0}
+.bf{background:var(--wh);padding:36px;border-radius:var(--rl)}
+.bf h3{font-family:var(--fd);font-size:1.4rem;font-weight:600;color:var(--td);margin-bottom:22px}
+.fg-{margin-bottom:16px}
+.fg- label{display:block;font-size:.72rem;font-weight:600;color:var(--tm);letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+.fg- input,.fg- select,.fg- textarea{width:100%;padding:11px 14px;border:1.5px solid var(--br);border-radius:var(--r);font-family:var(--fb);font-size:.875rem;color:var(--td);background:var(--iv);transition:border-color .2s;outline:none;appearance:none}
+.fg- input:focus,.fg- select:focus,.fg- textarea:focus{border-color:var(--cr);background:var(--wh)}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fs-{width:100%;background:var(--cr);color:var(--wh);border:none;padding:15px;font-family:var(--fb);font-size:.875rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;border-radius:var(--r);transition:background .2s;margin-top:6px}
+.fs-:hover{background:var(--cr-dk)}
+
+/* ── CONTACT ── */
+#contact{background:var(--iv)}
+.cg{display:grid;grid-template-columns:1fr 1.3fr;gap:52px;align-items:start;margin-top:48px}
+.cinf{display:flex;flex-direction:column;gap:18px}
+.ci-{display:flex;gap:18px;padding:22px;background:var(--wh);border-radius:var(--rl);border:1px solid var(--br);transition:border-color .2s}
+.ci-:hover{border-color:var(--cr)}
+.cio{width:44px;height:44px;background:var(--iv);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
+.cl{font-size:.65rem;font-weight:600;color:var(--cr);letter-spacing:.15em;text-transform:uppercase;margin-bottom:5px}
+.cv-{font-family:var(--fa);font-size:.95rem;color:var(--td);line-height:1.65}
+.cv- a{color:var(--cr);transition:opacity .2s}
+.cv- a:hover{opacity:.75}
+.mw{border-radius:var(--rl);overflow:hidden;border:1px solid var(--br)}
+.mw iframe{width:100%;height:420px;border:none;display:block}
+
+/* ── FOOTER ── */
+footer{background:var(--ea);color:rgba(255,255,255,.55);padding:60px 0 28px}
+.fg2{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:52px;padding-bottom:40px;border-bottom:1px solid rgba(255,255,255,.07)}
+.fb2 .bn2{font-family:var(--fd);font-size:1.4rem;color:var(--wh);font-weight:600;margin:18px 0 10px}
+.fb2 p{font-size:.85rem;line-height:1.8;max-width:300px}
+.fso{display:flex;gap:10px;margin-top:18px}
+.sl2{width:34px;height:34px;background:rgba(255,255,255,.07);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.9rem;transition:all .2s}
+.sl2:hover{background:var(--cr)}
+.fc h5{font-size:.72rem;font-weight:600;color:var(--wh);letter-spacing:.2em;text-transform:uppercase;margin-bottom:18px}
+.fc ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+.fc a{font-size:.84rem;color:rgba(255,255,255,.48);transition:color .2s}
+.fc a:hover{color:var(--gd-lt)}
+.ft{display:flex;align-items:center;justify-content:space-between;padding-top:22px;font-size:.76rem}
+.ft span{color:var(--gd-lt)}
+
+/* ── WHATSAPP ── */
+.wfab{position:fixed;bottom:28px;left:28px;width:50px;height:50px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--wh);font-size:1.4rem;z-index:998;box-shadow:0 4px 20px rgba(37,211,102,.4);cursor:pointer;transition:transform .3s;text-decoration:none}
+.wfab:hover{transform:scale(1.1)}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1100px){
+  .pg{grid-template-columns:repeat(2,1fr)}
+  .sg{grid-template-columns:repeat(2,1fr)}
+  .fg2{grid-template-columns:1fr 1fr;gap:36px}
+  .ag{gap:40px}
+  .si{grid-template-columns:1fr;gap:20px}
+}
+@media(max-width:820px){
+  .nv,.ncta{display:none}
+  .hbg{display:flex}
+  .ag,.bg-,.cg,.fg,.rh{grid-template-columns:1fr;gap:40px}
+  .aiw{max-width:340px;margin:0 auto}
+  .abg{left:0}
+  .rc-{grid-template-columns:1fr}
+  .ig{grid-template-columns:repeat(2,1fr)}
+  .sg{grid-template-columns:1fr}
+  .hst{position:static;margin-top:2.5rem;justify-content:flex-start}
+  .fg2{grid-template-columns:1fr;gap:28px}
+  .fr{grid-template-columns:1fr}
+  .bf{padding:22px}
+  .fsd{position:static}
+  .or{flex-direction:column;align-items:flex-start;gap:10px}
+}
+@media(max-width:540px){
+  .pg{grid-template-columns:1fr}
+  .ig{grid-template-columns:repeat(2,1fr)}
+  .htt{font-size:2.6rem}
+  .acr{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="cx">
+    <div class="ni">
+      <a href="#hero" class="nl">
+        <svg class="nm" viewBox="0 0 110 78" xmlns="http://www.w3.org/2000/svg">
+          <path d="M54,39 C49,22 30,8 14,13 C5,16 1,26 3,35 C5,44 15,50 25,51 C35,52 46,47 52,40 Z" fill="#8B1818"/>
+          <path d="M54,39 C49,54 33,64 18,62 C9,60 3,50 6,41 C9,32 19,28 29,31 C39,34 49,39 54,43 Z" fill="#8B1818" opacity=".82"/>
+          <path d="M56,39 C61,22 80,8 96,13 C105,16 109,26 107,35 C105,44 95,50 85,51 C75,52 64,47 58,40 Z" fill="#8B1818"/>
+          <path d="M56,39 C61,54 77,64 92,62 C101,60 107,50 104,41 C101,32 91,28 81,31 C71,34 61,39 56,43 Z" fill="#8B1818" opacity=".82"/>
+          <ellipse cx="55" cy="39" rx="3.5" ry="11" fill="#C44040"/>
+          <ellipse cx="55" cy="26" rx="1.2" ry="3" fill="#C44040" opacity=".7"/>
+        </svg>
+        <div class="nt">
+          <span class="bn">Arogya Mantra</span>
+          <span class="tg">Ancient Wisdom · Modern Care</span>
+        </div>
+      </a>
+      <ul class="nv">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#book" class="ncta">Book Appointment</a></li>
+      </ul>
+      <button class="hbg" onclick="toggleMenu()" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mm" id="mm">
+  <a href="#about" onclick="closeMenu()">About Us</a>
+  <a href="#services" onclick="closeMenu()">Services</a>
+  <a href="#shop" onclick="closeMenu()">Shop</a>
+  <a href="#reviews" onclick="closeMenu()">Reviews</a>
+  <a href="#faq" onclick="closeMenu()">FAQ</a>
+  <a href="#book" onclick="closeMenu()" style="color:var(--cr);font-weight:600">Book Appointment →</a>
+  <a href="#contact" onclick="closeMenu()">Contact Us</a>
+</div>
+
+<!-- ════ HERO ════ -->
+<section id="hero">
+  <div class="hbp"></div>
+  <!-- Mandala -->
+  <svg class="hmnd" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#B8860B" stroke-width=".6" opacity="1">
+    <circle cx="250" cy="250" r="235"/><circle cx="250" cy="250" r="200"/><circle cx="250" cy="250" r="165"/><circle cx="250" cy="250" r="125"/><circle cx="250" cy="250" r="85"/><circle cx="250" cy="250" r="42"/>
+    <line x1="250" y1="15" x2="250" y2="485"/><line x1="15" y1="250" x2="485" y2="250"/><line x1="72" y1="72" x2="428" y2="428"/><line x1="428" y1="72" x2="72" y2="428"/>
+    <line x1="145" y1="15" x2="355" y2="485"/><line x1="355" y1="15" x2="145" y2="485"/><line x1="15" y1="145" x2="485" y2="355"/><line x1="15" y1="355" x2="485" y2="145"/>
+    <g stroke-width=".5">
+      <ellipse cx="250" cy="125" rx="22" ry="52" transform="rotate(0 250 250)"/>
+      <ellipse cx="250" cy="125" rx="22" ry="52" transform="rotate(45 250 250)"/>
+      <ellipse cx="250" cy="125" rx="22" ry="52" transform="rotate(90 250 250)"/>
+      <ellipse cx="250" cy="125" rx="22" ry="52" transform="rotate(135 250 250)"/>
+      <ellipse cx="250" cy="125" rx="22" ry="52" transform="rotate(180 250 250)"/>
+      <ellipse cx="250" cy="125" rx="22" ry="52" transform="rotate(225 250 250)"/>
+      <ellipse cx="250" cy="125" rx="22" ry="52" transform="rotate(270 250 250)"/>
+      <ellipse cx="250" cy="125" rx="22" ry="52" transform="rotate(315 250 250)"/>
+    </g>
+    <g stroke-width=".4">
+      <ellipse cx="250" cy="165" rx="14" ry="34" transform="rotate(22.5 250 250)"/>
+      <ellipse cx="250" cy="165" rx="14" ry="34" transform="rotate(67.5 250 250)"/>
+      <ellipse cx="250" cy="165" rx="14" ry="34" transform="rotate(112.5 250 250)"/>
+      <ellipse cx="250" cy="165" rx="14" ry="34" transform="rotate(157.5 250 250)"/>
+      <ellipse cx="250" cy="165" rx="14" ry="34" transform="rotate(202.5 250 250)"/>
+      <ellipse cx="250" cy="165" rx="14" ry="34" transform="rotate(247.5 250 250)"/>
+      <ellipse cx="250" cy="165" rx="14" ry="34" transform="rotate(292.5 250 250)"/>
+      <ellipse cx="250" cy="165" rx="14" ry="34" transform="rotate(337.5 250 250)"/>
+    </g>
+  </svg>
+
+  <div class="cx">
+    <div class="hcn">
+      <div class="hew">
+        <div class="el"></div>
+        <span>Arogya Mantra Clinic &nbsp;·&nbsp; Est. 1995 &nbsp;·&nbsp; Hadapsar, Pune</span>
+      </div>
+      <h1 class="htt">
+        Ancient Wisdom<br>for <em>Modern</em><br>Wellness
+      </h1>
+      <p class="hsb">
+        Dr. Vrushali Maisekar brings 25+ years of authentic Ayurvedic expertise — blending time-honoured healing with modern science for holistic health transformation.
+      </p>
+      <div class="hac">
+        <a href="#book" class="bp">Book Consultation</a>
+        <a href="#shop" class="bo">Explore Products</a>
+      </div>
+    </div>
+    <div class="hst">
+      <div><div class="hs-n">25+</div><div class="hs-l">Years Practice</div></div>
+      <div><div class="hs-n">4.8★</div><div class="hs-l">Patient Rating</div></div>
+      <div><div class="hs-n">10K+</div><div class="hs-l">Lives Healed</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="mq">
+  <div class="mt">
+    <div class="mi">🌿 Panchabhoutik Chikitsa <span class="md"></span></div>
+    <div class="mi">🌸 Panchakarma Therapy <span class="md"></span></div>
+    <div class="mi">✨ Skinergy — Soundarya Mantra <span class="md"></span></div>
+    <div class="mi">🧘 Yoga Therapy — YCB Level 6 <span class="md"></span></div>
+    <div class="mi">💆 Hair Regain Clinic <span class="md"></span></div>
+    <div class="mi">🪴 Authentic Ayurvedic Products <span class="md"></span></div>
+    <div class="mi">⚕️ 25 Years of Clinical Excellence <span class="md"></span></div>
+    <div class="mi">🌿 Panchabhoutik Chikitsa <span class="md"></span></div>
+    <div class="mi">🌸 Panchakarma Therapy <span class="md"></span></div>
+    <div class="mi">✨ Skinergy — Soundarya Mantra <span class="md"></span></div>
+    <div class="mi">🧘 Yoga Therapy — YCB Level 6 <span class="md"></span></div>
+    <div class="mi">💆 Hair Regain Clinic <span class="md"></span></div>
+    <div class="mi">🪴 Authentic Ayurvedic Products <span class="md"></span></div>
+    <div class="mi">⚕️ 25 Years of Clinical Excellence <span class="md"></span></div>
+  </div>
+</div>
+
+<!-- ════ ABOUT ════ -->
+<section id="about" class="sec" style="background:var(--wh)">
+  <div class="cx">
+    <div class="ag">
+      <div class="aiw rv">
+        <div class="aib"></div>
+        <div class="aim">👩‍⚕️</div>
+        <div class="abg">
+          <span class="yn">25+</span>
+          <span class="yl">Years of<br>Excellence</span>
+        </div>
+      </div>
+      <div class="rv d1">
+        <div class="sey"><div class="sl"></div><span>About the Founder</span></div>
+        <h2 class="st">Dr. Vrushali<br><em>Kailash Maisekar</em></h2>
+        <p class="adc">One of Hadapsar's most trusted Ayurvedic physicians, Dr. Vrushali brings a rare blend of classical Ayurvedic knowledge and modern clinical understanding. Trained under the legendary Late Vaidya A.V. Datar Shastri and renowned Dr. Vivek Haldavnekar, she embodies the Arogya Mantra philosophy — treating not just the disease, but the whole person. Every patient receives individual care and attention to detail.</p>
+        <div class="atg">
+          <span class="at">BAMS Graduate</span>
+          <span class="at">YCB Level 6 Certified</span>
+          <span class="at">KEM Hospital, Pune</span>
+          <span class="at">International Speaker</span>
+          <span class="at">DNHE — IGNOU 2004</span>
+          <span class="at">Maharashtra Council of Indian Medicine</span>
+        </div>
+        <div class="acr">
+          <div class="ci"><div class="ct">Qualification</div><div class="cv">BAMS — Ayurvedic Medicine &amp; Surgery, 1995</div></div>
+          <div class="ci"><div class="ct">Specialisation</div><div class="cv">Panchabhoutik Chikitsa, Yoga, Skin &amp; Hair</div></div>
+          <div class="ci"><div class="ct">Recognition</div><div class="cv">Multiple National &amp; International Awards</div></div>
+          <div class="ci"><div class="ct">Consultation</div><div class="cv">₹500 &nbsp;·&nbsp; Mon–Sat: 5:30–8:00 PM</div></div>
+        </div>
+        <a href="#book" class="bp" style="margin-top:2rem;display:inline-block">Book Your Visit →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ SERVICES ════ -->
+<section id="services" class="sec">
+  <div class="cx">
+    <div class="si">
+      <div class="rv">
+        <div class="sey"><div class="sl"></div><span>Our Expertise</span></div>
+        <h2 class="st">Holistic Healing<br><em>Redefined</em></h2>
+      </div>
+      <p class="sd rv d1">At Arogya Mantra, every treatment is deeply personalised. We blend the ancient five-element wisdom of Ayurveda with modern diagnostics to treat the root cause — not just the symptoms.</p>
+    </div>
+    <div class="sg">
+      <div class="sc- rv">
+        <div class="sn">01</div>
+        <div class="si-">🌍</div>
+        <div class="snm">Panchabhoutik Chikitsa</div>
+        <p class="sds">A pioneering system using Earth, Water, Fire, Air &amp; Space as the basis of treatment. Focuses on Agni (digestion) — the cornerstone of all health. Treats root causes with minimum dosage.</p>
+        <div class="slk">Learn more →</div>
+      </div>
+      <div class="sc- rv d1">
+        <div class="sn">02</div>
+        <div class="si-">🧘‍♀️</div>
+        <div class="snm">Yoga Therapy</div>
+        <p class="sds">YCB Level 6 certified yoga therapy for PCOD, menopause, weight management, face yoga &amp; stress relief. Treating body, mind and soul as a unified whole — "Yoga Samatvam Uchyate."</p>
+        <div class="slk">Learn more →</div>
+      </div>
+      <div class="sc- rv d2">
+        <div class="sn">03</div>
+        <div class="si-">🌺</div>
+        <div class="snm">Panchakarma</div>
+        <p class="sds">Deep cleansing through Abhyanga, Shirodhara, Sarvanga Dhara, Vaman, Virechan, Basti, Nasya &amp; Rakta Mokshan. Complete detoxification and rejuvenation of body, mind and senses.</p>
+        <div class="slk">Learn more →</div>
+      </div>
+      <div class="sc- rv">
+        <div class="sn">04</div>
+        <div class="si-">✨</div>
+        <div class="snm">Skinergy</div>
+        <p class="sds">The Soundarya Mantra — treating pimples, pigmentation, dark circles, skin sagging, hair loss &amp; dandruff. Advanced Ayurvedic cosmetology with modern equipment and a personalised approach.</p>
+        <div class="slk">Learn more →</div>
+      </div>
+      <div class="sc- rv d1">
+        <div class="sn">05</div>
+        <div class="si-">💆‍♀️</div>
+        <div class="snm">Hair Regain Clinic</div>
+        <p class="sds">Expert care for hair loss, alopecia, balding &amp; dandruff. Pune's finest hair wig solutions for men, women &amp; cancer patients. Painless, natural-looking, pocket-friendly &amp; easy to maintain.</p>
+        <div class="slk">Learn more →</div>
+      </div>
+      <div class="sc- rv d2">
+        <div class="sn">06</div>
+        <div class="si-">🫁</div>
+        <div class="snm">Digestive &amp; Women's Health</div>
+        <p class="sds">Specialised treatment for IBS, acidity, colitis, piles, fissure, liver disorders. Women's health — PCOD, irregular menses, infertility, menopause — through proven Ayurvedic protocols.</p>
+        <div class="slk">Learn more →</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ SHOP ════ -->
+<section id="shop" class="sec">
+  <div class="cx">
+    <div class="sey rv"><div class="sl"></div><span>Arogya Mantra Store</span></div>
+    <h2 class="st rv" style="color:var(--wh)">Nature's Pharmacy,<br><em style="color:var(--gd-lt)">Curated for You</em></h2>
+    <div class="sf rv">
+      <button class="fb ac" onclick="filter('all',this)">All Products</button>
+      <button class="fb" onclick="filter('hair',this)">Hair Care</button>
+      <button class="fb" onclick="filter('skin',this)">Skin &amp; Body</button>
+      <button class="fb" onclick="filter('wellness',this)">Wellness</button>
+    </div>
+    <div class="pg rv" id="pg">
+
+      <div class="pc" data-cat="hair">
+        <div class="piw"><div class="pe">🌿</div><span class="pb">Bestseller</span><button class="pw" onclick="wish(this)">🤍</button></div>
+        <div class="pif">
+          <div class="pct">Hair Care</div>
+          <div class="pnm">Arogya Mantra Hair Oil</div>
+          <div class="psz">100 ml &nbsp;·&nbsp; Traditional Herbal Blend</div>
+          <p class="pds">Potent multi-herb formula to combat hair fall, stimulate growth &amp; nourish roots deeply from within.</p>
+          <div class="pft"><div class="pp">₹249</div><button class="atc" onclick="cart(this,'Hair Oil')">Add to Cart</button></div>
+        </div>
+      </div>
+
+      <div class="pc" data-cat="wellness">
+        <div class="piw"><div class="pe">💆</div><span class="pb">Doctor's Pick</span><button class="pw" onclick="wish(this)">🤍</button></div>
+        <div class="pif">
+          <div class="pct">Wellness</div>
+          <div class="pnm">Abhyanga Tel</div>
+          <div class="psz">100 ml &nbsp;·&nbsp; Medicated Massage Oil</div>
+          <p class="pds">Traditional Panchakarma massage oil for deep relaxation, toxin elimination &amp; complete body rejuvenation.</p>
+          <div class="pft"><div class="pp">₹249</div><button class="atc" onclick="cart(this,'Abhyanga Tel')">Add to Cart</button></div>
+        </div>
+      </div>
+
+      <div class="pc" data-cat="hair">
+        <div class="piw"><div class="pe">🌾</div><button class="pw" onclick="wish(this)">🤍</button></div>
+        <div class="pif">
+          <div class="pct">Hair Care</div>
+          <div class="pnm">Shekekai Shampoo</div>
+          <div class="psz">100 ml &nbsp;·&nbsp; Chemical-Free Formula</div>
+          <p class="pds">Pure shikakai shampoo for gentle scalp cleansing, natural shine &amp; healthy hair growth. No sulphates.</p>
+          <div class="pft"><div class="pp">₹125</div><button class="atc" onclick="cart(this,'Shekekai Shampoo')">Add to Cart</button></div>
+        </div>
+      </div>
+
+      <div class="pc" data-cat="skin">
+        <div class="piw"><div class="pe">🌸</div><span class="pb">Natural</span><button class="pw" onclick="wish(this)">🤍</button></div>
+        <div class="pif">
+          <div class="pct">Skin Care</div>
+          <div class="pnm">Arogya Mantra Ubtan</div>
+          <div class="psz">50 gm &nbsp;·&nbsp; Face &amp; Body Scrub</div>
+          <p class="pds">Ancient ubtan recipe for radiant skin, natural tan removal, deep cleansing &amp; beautiful glow.</p>
+          <div class="pft"><div class="pp">₹75</div><button class="atc" onclick="cart(this,'Ubtan')">Add to Cart</button></div>
+        </div>
+      </div>
+
+      <div class="pc" data-cat="skin">
+        <div class="piw"><div class="pe">🛁</div><button class="pw" onclick="wish(this)">🤍</button></div>
+        <div class="pif">
+          <div class="pct">Bath Ritual</div>
+          <div class="pnm">Shahi Snan</div>
+          <div class="psz">Royal Bath Preparation</div>
+          <p class="pds">Luxurious royal bath preparation with rare Ayurvedic herbs for skin nourishment, softness &amp; relaxation.</p>
+          <div class="pft"><div class="pp">₹75</div><button class="atc" onclick="cart(this,'Shahi Snan')">Add to Cart</button></div>
+        </div>
+      </div>
+
+      <div class="pc" data-cat="wellness">
+        <div class="piw"><div class="pe">🫙</div><span class="pb">Superfood</span><button class="pw" onclick="wish(this)">🤍</button></div>
+        <div class="pif">
+          <div class="pct">Wellness</div>
+          <div class="pnm">Amla Murabba</div>
+          <div class="psz">250 gm &nbsp;·&nbsp; Handmade Preserve</div>
+          <p class="pds">Traditional amla murabba — a powerhouse of Vitamin C for immunity, digestion &amp; glowing skin.</p>
+          <div class="pft"><div class="pp">₹250</div><button class="atc" onclick="cart(this,'Amla Murabba')">Add to Cart</button></div>
+        </div>
+      </div>
+
+      <div class="pc" data-cat="skin">
+        <div class="piw"><div class="pe">🧼</div><button class="pw" onclick="wish(this)">🤍</button></div>
+        <div class="pif">
+          <div class="pct">Skin Care</div>
+          <div class="pnm">Handmade Body Soap</div>
+          <div class="psz">100 gm &nbsp;·&nbsp; Cold Process Artisanal</div>
+          <p class="pds">Artisanal Ayurvedic soap with natural plant oils. No harsh chemicals — only pure botanical goodness.</p>
+          <div class="pft"><div class="pp">₹120</div><button class="atc" onclick="cart(this,'Body Soap')">Add to Cart</button></div>
+        </div>
+      </div>
+
+      <div class="pc" data-cat="wellness">
+        <div class="piw"><div class="pe">🍯</div><span class="pb">Premium</span><button class="pw" onclick="wish(this)">🤍</button></div>
+        <div class="pif">
+          <div class="pct">Wellness</div>
+          <div class="pnm">Chyawan Prash</div>
+          <div class="psz">250 gm &nbsp;·&nbsp; Traditional Recipe</div>
+          <p class="pds">The legendary Ayurvedic superfood with 40+ herbs for immunity, vitality, energy &amp; longevity.</p>
+          <div class="pft"><div class="pp">₹300</div><button class="atc" onclick="cart(this,'Chyawan Prash')">Add to Cart</button></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Cart FAB -->
+<div class="cb" id="cb" onclick="openCart()">
+  🛒<span id="cc">0</span>
+</div>
+
+<!-- ════ REVIEWS ════ -->
+<section id="reviews" class="sec" style="background:var(--wh)">
+  <div class="cx">
+    <div class="rh rv">
+      <div>
+        <div class="sey"><div class="sl"></div><span>Patient Stories</span></div>
+        <h2 class="st">Words from<br><em>Healed Lives</em></h2>
+      </div>
+      <div class="or">
+        <div class="rb">4.8</div>
+        <div class="ri">
+          <div class="rs">★★★★★</div>
+          <div class="rc">42+ verified reviews</div>
+          <div style="font-size:.7rem;color:var(--mu);margin-top:5px">Across Google · Practo · Justdial</div>
+        </div>
+      </div>
+    </div>
+    <div class="rc-">
+      <div class="rvw rv">
+        <div class="rvs">★★★★★</div>
+        <p class="rvt">"I noticed a real difference within just one week of starting my face treatment. The staff is incredibly polite and time-punctual — never once disappointed me. I honestly get more than what I pay for here."</p>
+        <div class="rva"><div class="rav">P</div><div><div class="rn">Priya Kulkarni</div><div class="rm">Skin Treatment · Verified Patient</div></div><div class="rsc">Practo</div></div>
+      </div>
+      <div class="rvw rv d1">
+        <div class="rvs">★★★★★</div>
+        <p class="rvt">"Dr. Vrushali mam gave me such a beautiful face and a confident persona. She patiently listens to every problem and suggests the perfect solution. Her free and frank advice is a true gift. Forever grateful."</p>
+        <div class="rva"><div class="rav">S</div><div><div class="rn">Snehal Deshpande</div><div class="rm">Pigmentation · Verified Patient</div></div><div class="rsc">Practo</div></div>
+      </div>
+      <div class="rvw rv d2">
+        <div class="rvs">★★★★★</div>
+        <p class="rvt">"Such incredible relief from acidity and IBS. She clearly describes the problem and the solution with so much care and warmth. Absolutely the best Ayurvedic doctor in Hadapsar — bar none!"</p>
+        <div class="rva"><div class="rav">R</div><div><div class="rn">Rahul Patil</div><div class="rm">Digestive Disorders · Verified Patient</div></div><div class="rsc">Practo</div></div>
+      </div>
+      <div class="rvw rv">
+        <div class="rvs">★★★★★</div>
+        <p class="rvt">"After years of suffering from piles, I found such incredible and lasting relief through Arogya Mantra's Ayurvedic treatment. The approach is gentle, holistic, and the results are permanent. Highly recommend."</p>
+        <div class="rva"><div class="rav">A</div><div><div class="rn">Anita More</div><div class="rm">Piles Treatment · Verified Patient</div></div><div class="rsc">Justdial</div></div>
+      </div>
+      <div class="rvw rv d1">
+        <div class="rvs">★★★★★</div>
+        <p class="rvt">"The hair wig during my chemotherapy gave me back my confidence when I needed it most. The team's sensitivity, the perfect natural look — Hair Regain Clinic is a blessing for cancer patients. Deeply grateful."</p>
+        <div class="rva"><div class="rav">M</div><div><div class="rn">Meena Joshi</div><div class="rm">Hair Regain Clinic · Verified Patient</div></div><div class="rsc">Google</div></div>
+      </div>
+      <div class="rvw rv d2">
+        <div class="rvs">★★★★☆</div>
+        <p class="rvt">"The Yoga therapy for PCOD has been life-changing. Lost weight, regulated my cycle, and feel so much better mentally too. Dr. Vrushali's whole-person approach makes all the difference in the world."</p>
+        <div class="rva"><div class="rav">N</div><div><div class="rn">Neha Sharma</div><div class="rm">PCOD Yoga Therapy · Verified Patient</div></div><div class="rsc">Google</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ INSTAGRAM ════ -->
+<section id="insta">
+  <div class="cx">
+    <div class="ih rv">
+      <div class="sey" style="justify-content:center"><div class="sl"></div><span>@arogyamantra_clinic</span><div class="sl"></div></div>
+      <h2 class="st" style="text-align:center">Follow Our<br><em>Wellness Journey</em></h2>
+      <p style="text-align:center;max-width:480px;margin:1rem auto;font-family:var(--fa);color:var(--mu);font-size:1.05rem;line-height:1.8">Behind-the-scenes treatments, patient transformations, Ayurvedic tips &amp; product reveals — follow along for daily wellness wisdom.</p>
+    </div>
+    <div class="ig rv">
+      <div class="ii"><div class="ibg">🌿</div><div class="ic">▶</div></div>
+      <div class="ii"><div class="ibg">💆‍♀️</div><div class="ic">🎬</div></div>
+      <div class="ii"><div class="ibg">🌸</div><div class="ic">▶</div></div>
+      <div class="ii"><div class="ibg">🍯</div><div class="ic">🎬</div></div>
+      <div class="ii"><div class="ibg">🧘</div><div class="ic">▶</div></div>
+      <div class="ii"><div class="ibg">🌾</div><div class="ic">🎬</div></div>
+      <div class="ii"><div class="ibg">✨</div><div class="ic">▶</div></div>
+      <div class="ii"><div class="ibg">🪴</div><div class="ic">🎬</div></div>
+    </div>
+    <div class="ifb">
+      <a href="https://instagram.com/arogyamantra_clinic" target="_blank" rel="noopener" class="bif">📷 &nbsp;Follow on Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FAQ ════ -->
+<section id="faq" class="sec" style="background:var(--wh)">
+  <div class="cx">
+    <div class="sey rv"><div class="sl"></div><span>Common Questions</span></div>
+    <h2 class="st rv">Have<br><em>Questions?</em></h2>
+    <div class="fg">
+      <div class="fsd rv">
+        <p class="fdc">We know Ayurveda can feel unfamiliar. These answers aim to make every patient feel informed, comfortable, and confident before they walk through our doors.</p>
+        <div class="fcc">
+          <h4>Still unsure?</h4>
+          <p>Talk to Dr. Vrushali directly. No obligation — just honest, caring Ayurvedic guidance.</p>
+          <a href="tel:+919876543210">📞 &nbsp;Call Now</a>
+        </div>
+      </div>
+      <div class="ac- rv d1" id="ac">
+        <div class="ai">
+          <button class="at-" onclick="acc(this)">
+            <span class="aq">What is Panchabhoutik Chikitsa and how is it different?</span><span class="aico">+</span>
+          </button>
+          <div class="ab"><p class="aa">Panchabhoutik Chikitsa is a unique branch of Ayurveda pioneered by Late Vaidya A.V. Datar Shastri, using the five elements — Earth, Water, Fire, Air and Space — as the foundation of treatment. Unlike conventional approaches, it focuses on correcting Agni (digestive fire) and assessing one's Prakriti (constitution) to treat the root cause with minimum medicine dosage.</p></div>
+        </div>
+        <div class="ai">
+          <button class="at-" onclick="acc(this)">
+            <span class="aq">Is Panchakarma safe for everyone? Any side effects?</span><span class="aico">+</span>
+          </button>
+          <div class="ab"><p class="aa">Panchakarma is safe when done under proper medical supervision. At Arogya Mantra, each protocol is personalised after thorough health assessment. Therapies like Abhyanga and Shirodhara are deeply pleasurable. Stronger therapies like Vaman are prescribed only when clinically indicated. Always inform us of any existing conditions or medications beforehand.</p></div>
+        </div>
+        <div class="ai">
+          <button class="at-" onclick="acc(this)">
+            <span class="aq">How effective is Ayurvedic treatment for PCOD and infertility?</span><span class="aico">+</span>
+          </button>
+          <div class="ab"><p class="aa">PCOD responds very well to our integrated approach — combining Panchabhoutik Chikitsa for hormonal balance, customised herbal medicines, and YCB Level 6 certified Yoga therapy. Patients have reported regulated cycles, weight management, improved fertility markers, and significantly better quality of life. Results vary per individual but our clinical track record is strong.</p></div>
+        </div>
+        <div class="ai">
+          <button class="at-" onclick="acc(this)">
+            <span class="aq">What types of hair wigs are available at Hair Regain Clinic?</span><span class="aico">+</span>
+          </button>
+          <div class="ab"><p class="aa">We offer natural and synthetic hair wigs, hair patches for men and women, toppers, extensions, and specially designed wigs for chemotherapy and alopecia patients. Bases come in cotton and synthetic options. Hair textures include straight, wavy, and curly in all natural and custom colors. Every wig is custom-fitted for a natural, comfortable, daily-life-friendly look. Quick makeover, painless, no scar, no stitch.</p></div>
+        </div>
+        <div class="ai">
+          <button class="at-" onclick="acc(this)">
+            <span class="aq">Are the Arogya Mantra products chemical-free and safe for daily use?</span><span class="aico">+</span>
+          </button>
+          <div class="ab"><p class="aa">Absolutely. All Arogya Mantra products are formulated by Dr. Vrushali from 25+ years of clinical experience using traditional Ayurvedic recipes with authentic natural ingredients. No harsh chemicals, artificial preservatives, or synthetic fragrances. Safe for regular use and suitable for all skin types, including sensitive skin. The products are doctor-founded, clinically tested, and have been trusted by thousands of patients.</p></div>
+        </div>
+        <div class="ai">
+          <button class="at-" onclick="acc(this)">
+            <span class="aq">What is the first consultation like? What should I expect?</span><span class="aico">+</span>
+          </button>
+          <div class="ab"><p class="aa">Your first visit involves a detailed history, Prakriti assessment (constitution analysis), Naad Pariksha (pulse diagnosis), and skin analysis where relevant. Dr. Vrushali will thoroughly discuss your concerns, explain the diagnosis in simple terms, and outline a personalised treatment plan. The consultation is unhurried — you will leave with clarity and confidence. Fee: ₹500 &nbsp;·&nbsp; Mon–Sat: 5:30–8:00 PM.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ BOOKING ════ -->
+<section id="book" class="sec">
+  <div class="bbg"></div>
+  <div class="cx">
+    <div class="bg-">
+      <div class="rv">
+        <div class="sey"><div class="sl"></div><span>Begin Your Journey</span></div>
+        <h2 class="st">Book Your<br><em style="color:var(--gd-lt)">Consultation</em></h2>
+        <p class="bdc">Every healing journey begins with a single step. Book your personalised consultation with Dr. Vrushali and discover what authentic Ayurveda can truly do for you.</p>
+        <div class="bpk">
+          <div class="pk"><div class="pi">✓</div><span>Personalised Prakriti (constitution) assessment</span></div>
+          <div class="pk"><div class="pi">✓</div><span>Root-cause diagnosis, not just symptom management</span></div>
+          <div class="pk"><div class="pi">✓</div><span>Detailed treatment plan explained clearly</span></div>
+          <div class="pk"><div class="pi">✓</div><span>Mon–Sat 5:30–8 PM &nbsp;·&nbsp; Fee: ₹500 per consultation</span></div>
+        </div>
+      </div>
+      <div class="bf rv d1">
+        <h3>Reserve Your Slot</h3>
+        <div class="fr">
+          <div class="fg-"><label>First Name</label><input type="text" placeholder="Priya"></div>
+          <div class="fg-"><label>Last Name</label><input type="text" placeholder="Sharma"></div>
+        </div>
+        <div class="fg-"><label>Mobile Number</label><input type="tel" placeholder="+91 98765 43210"></div>
+        <div class="fg-"><label>Email Address</label><input type="email" placeholder="priya@email.com"></div>
+        <div class="fg-">
+          <label>Service Required</label>
+          <select>
+            <option>Select a Service</option>
+            <option>Panchabhoutik Chikitsa</option>
+            <option>Yoga Therapy (PCOD / Menopause / Weight Loss)</option>
+            <option>Panchakarma</option>
+            <option>Skinergy — Skin &amp; Cosmetology</option>
+            <option>Hair Regain Clinic</option>
+            <option>Digestive / Women's Health</option>
+            <option>General Ayurvedic Consultation</option>
+          </select>
+        </div>
+        <div class="fr">
+          <div class="fg-"><label>Preferred Date</label><input type="date"></div>
+          <div class="fg-"><label>Preferred Time</label>
+            <select><option>5:30 PM</option><option>6:00 PM</option><option>6:30 PM</option><option>7:00 PM</option><option>7:30 PM</option></select>
+          </div>
+        </div>
+        <div class="fg-"><label>Brief Health Concern (Optional)</label><textarea rows="3" placeholder="Describe your main health concern briefly..."></textarea></div>
+        <button class="fs-" onclick="bookAppt(this)">Confirm Appointment →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ CONTACT ════ -->
+<section id="contact" class="sec">
+  <div class="cx">
+    <div class="sey rv"><div class="sl"></div><span>Find Us</span></div>
+    <h2 class="st rv">Come Visit<br><em>Arogya Mantra</em></h2>
+    <div class="cg">
+      <div class="cinf rv">
+        <div class="ci-">
+          <div class="cio">📍</div>
+          <div><div class="cl">Clinic Address</div><div class="cv-">501, City Center, Opposite Vaibhav Complex,<br>Hadapsar, Pune — 411028, Maharashtra</div></div>
+        </div>
+        <div class="ci-">
+          <div class="cio">💇</div>
+          <div><div class="cl">Hair Regain Clinic</div><div class="cv-">Angan Complex, First Floor, Magarpatta Road,<br>Magarpatta City, Hadapsar, Pune — 411028</div></div>
+        </div>
+        <div class="ci-">
+          <div class="cio">📞</div>
+          <div><div class="cl">Phone / WhatsApp</div><div class="cv-"><a href="tel:+919876543210">+91 98765 43210</a><br><a href="https://wa.me/919876543210">Chat on WhatsApp →</a></div></div>
+        </div>
+        <div class="ci-">
+          <div class="cio">🕐</div>
+          <div><div class="cl">Clinic Timings</div><div class="cv-">Monday – Saturday<br>5:30 PM – 8:00 PM</div></div>
+        </div>
+        <div class="ci-">
+          <div class="cio">✉️</div>
+          <div><div class="cl">Email</div><div class="cv-"><a href="mailto:arogyamantraclinic@gmail.com">arogyamantraclinic@gmail.com</a></div></div>
+        </div>
+      </div>
+      <div class="mw rv d1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.9!2d73.9375!3d18.5046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1e42c789abc%3A0xabc123456789!2sHadapsar%2C+Pune%2C+Maharashtra+411028!5e0!3m2!1sen!2sin!4v1625000000000"
+          allowfullscreen="" loading="lazy" title="Arogya Mantra Clinic, Hadapsar, Pune">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FOOTER ════ -->
+<footer>
+  <div class="cx">
+    <div class="fg2">
+      <div class="fb2">
+        <svg viewBox="0 0 110 78" width="56" xmlns="http://www.w3.org/2000/svg">
+          <path d="M54,39 C49,22 30,8 14,13 C5,16 1,26 3,35 C5,44 15,50 25,51 C35,52 46,47 52,40 Z" fill="#8B1818"/>
+          <path d="M54,39 C49,54 33,64 18,62 C9,60 3,50 6,41 C9,32 19,28 29,31 C39,34 49,39 54,43 Z" fill="#8B1818" opacity=".8"/>
+          <path d="M56,39 C61,22 80,8 96,13 C105,16 109,26 107,35 C105,44 95,50 85,51 C75,52 64,47 58,40 Z" fill="#8B1818"/>
+          <path d="M56,39 C61,54 77,64 92,62 C101,60 107,50 104,41 C101,32 91,28 81,31 C71,34 61,39 56,43 Z" fill="#8B1818" opacity=".8"/>
+          <ellipse cx="55" cy="39" rx="3.5" ry="11" fill="#C44040"/>
+        </svg>
+        <p class="bn2">Arogya Mantra</p>
+        <p>Blending 5000 years of Ayurvedic wisdom with modern clinical science — for health that is holistic, lasting, and truly yours. Serving Hadapsar, Pune since 1995.</p>
+        <div class="fso">
+          <a href="#" class="sl2" aria-label="Instagram">📷</a>
+          <a href="#" class="sl2" aria-label="Facebook">📘</a>
+          <a href="#" class="sl2" aria-label="YouTube">📺</a>
+          <a href="https://wa.me/919876543210" class="sl2" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div class="fc">
+        <h5>Clinic</h5>
+        <ul>
+          <li><a href="#about">About Dr. Vrushali</a></li>
+          <li><a href="#services">All Services</a></li>
+          <li><a href="#book">Book Appointment</a></li>
+          <li><a href="#reviews">Patient Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Directions</a></li>
+        </ul>
+      </div>
+      <div class="fc">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Panchabhoutik Chikitsa</a></li>
+          <li><a href="#services">Yoga Therapy</a></li>
+          <li><a href="#services">Panchakarma</a></li>
+          <li><a href="#services">Skinergy</a></li>
+          <li><a href="#services">Hair Regain Clinic</a></li>
+          <li><a href="#services">Women's Health</a></li>
+        </ul>
+      </div>
+      <div class="fc">
+        <h5>Products</h5>
+        <ul>
+          <li><a href="#shop">Hair Oil · ₹249</a></li>
+          <li><a href="#shop">Abhyanga Tel · ₹249</a></li>
+          <li><a href="#shop">Shekekai Shampoo · ₹125</a></li>
+          <li><a href="#shop">Ubtan · ₹75</a></li>
+          <li><a href="#shop">Amla Murabba · ₹250</a></li>
+          <li><a href="#shop">Chyawan Prash · ₹300</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft">
+      <p>© 2025 Arogya Mantra Clinic. All rights reserved. <span>Crafted with care for holistic wellness.</span></p>
+      <p>Hadapsar, Pune · 411028</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp FAB -->
+<a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="wfab" aria-label="Chat on WhatsApp">💬</a>
+
+<script>
+// Body load
+window.addEventListener('load',()=>document.body.classList.add('loaded'));
+
+// Navbar
+const nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>nav.classList.toggle('sc',scrollY>60));
+
+// Mobile menu
+function toggleMenu(){document.getElementById('mm').classList.toggle('op')}
+function closeMenu(){document.getElementById('mm').classList.remove('op')}
+
+// Reveal on scroll
+const rvs=document.querySelectorAll('.rv');
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){e.target.classList.add('vi');obs.unobserve(e.target)}
+  });
+},{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+rvs.forEach(el=>obs.observe(el));
+
+// Accordion
+function acc(btn){
+  const item=btn.closest('.ai');
+  const wasOpen=item.classList.contains('op');
+  document.querySelectorAll('.ai').forEach(i=>i.classList.remove('op'));
+  if(!wasOpen)item.classList.add('op');
+}
+
+// Cart
+let cnt=0;
+const cb=document.getElementById('cb');
+const cc=document.getElementById('cc');
+function cart(btn,name){
+  cnt++;cc.textContent=cnt;cb.classList.add('vs');
+  const orig=btn.textContent;
+  btn.textContent='✓ Added';btn.classList.add('ad');
+  setTimeout(()=>{btn.textContent=orig;btn.classList.remove('ad')},2200);
+}
+function openCart(){
+  if(cnt===0)return;
+  alert('Cart: '+cnt+' item(s)\n\nCart &amp; checkout will be connected to the backend (Node.js/MongoDB) in the final build.\n\nThank you for shopping at Arogya Mantra! 🌿');
+}
+
+// Wishlist
+function wish(btn){btn.textContent=btn.textContent==='🤍'?'❤️':'🤍'}
+
+// Filter products
+function filter(cat,btn){
+  document.querySelectorAll('.fb').forEach(b=>b.classList.remove('ac'));
+  btn.classList.add('ac');
+  document.querySelectorAll('#pg .pc').forEach(card=>{
+    const show=cat==='all'||card.dataset.cat===cat;
+    card.style.display=show?'block':'none';
+    if(show){card.style.animation='none';card.offsetHeight;card.style.animation=''}
+  });
+}
+
+// Book appointment
+function bookAppt(btn){
+  const orig=btn.textContent;
+  btn.textContent='✓ Appointment Confirmed! We will call you shortly.';
+  btn.style.background='#3A6B4A';
+  setTimeout(()=>{btn.textContent=orig;btn.style.background=''},4000);
+}
+</script>
+</body>
+</html>
